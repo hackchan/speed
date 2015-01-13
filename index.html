@@ -1,14 +1,61 @@
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
    <meta charset="UTF-8" />
-   <meta description="Diseño web para el blog speed" />
+   <meta description="DiseÃ±o web para el blog speed" />
    <title>Speed Blog</title>
-
 </head>
+
 <body>
-    <h1>Blog de inicio</h1>
+  <header>
+    <figure class="logo">
+      <img src="img/logo.png" alt="" />
+    </figure>
+    <h1>Speed: Comunidad de Personas con ideas geniales.</h1>
+    <figure class="logo">
+       <img src="img/avatar.jpg" alt="50" height="50" />
+    </figure>
+  </header>
+  
+  <nav>
+   	  <li><a href="#">Python</a></li>
+   	  <li><a href="#">HTML5</a></li>
+   	  <li><a href="#">JavaScript</a></li>
+   	  <li><a href="#">CSS3</a></li>
+   	  <li><a href="#">Django</a></li>
+   	  <li id="publicar_nav"><a href="#">Publica</a></li>
+  </nav>
+
+  <section id="contenido">
+    <article class="item">
+      <figure class="imagen_item">
+        <img src="img/imagen.jpg" alt="" />
+      </figure>
+   	  <h2 class="titulo_item">
+        <a href="#">Titulo del articulo</a>
+   	  </h2>
+      <div class="autor_item">
+        por <a href="#">Fabio Rojas</a>
+   	  </div>
+      <div class="datos_item">
+        <a href="#" class="tag_item">Pony</a>
+        <span class="fecha_item">hace <strong>5</strong> min</span>
+        <a href="#" class="comentarios_item">69</a>
+        <a href="#" class="guardar_item"></a>
+      </div>
+      <div class="votacion">
+        <a href="#" class="up"></a>
+          720
+        <a href="#" class="down"></a>
+      </div>
+    </article>
+  </section>
+
+  <footer>
+    <p><strong>Powerered By Cat</strong></p>
+  </footer> 
 
 </body>
 </html>
